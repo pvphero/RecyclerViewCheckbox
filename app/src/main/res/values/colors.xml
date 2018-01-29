@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <color name="transparent_dialog_background">#90000000</color>
+    <!-- 以后app中所有用到灰色字体的地方都是#666666    201511223 -->
+    <color name="text_color">#666666</color>
+    <!-- 以后app中所有用到灰色背景的地方都是#f8f8f8   201511223 -->
+    <color name="gray_background">#f8f8f8</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffff00</color> <!-- 翠绿 -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color> <!-- 血红 -->
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color> <!-- 黑 -->
+    <!-- 红 -->
+    <color name="viewfinder_laser">#ffff0000</color> <!-- 黄色 -->
+    <color name="viewfinder_mask">#60000000</color> <!-- 酒红 -->
+    <color name="light_gray">#edeeee</color> <!-- 灰色 -->
+    <color name="deep_blue">#20272d</color> <!-- 深蓝 -->
+    <color name="bind_account_tip">#808080</color>
+    <color name="shealth_blue">#dff1ff</color> <!-- shealth多用户蓝色 -->
+    <color name="circle_blue">#4CB5FD</color> <!-- 补全信息蓝色 -->
+    <color name="bind_title">#48A0DC</color> <!-- 绑定界面title的蓝色 -->
+    <color name="complete_gray">#f8f8f8</color> <!-- 灰色 -->
+    <color name="choose_country">#F7F7F7</color> <!-- 国家被选中的灰色 -->
+    <color name="white">#ffffff</color>
+    <color name="blue">#48a0dc</color>
+    <color name="upgrade_progress_value_color">#28a7e1</color>
+    <color name="upgrade_message_tip_color">#fa4c06</color>
+    <color name="hintcolor">#c7c7c7</color>
+    <color name="register_text_color">#979998</color>
+    <!-- am结果卡 -->
+    <!-- 醒着5分钟图颜色 -->
+    <!-- 浅睡5分钟图颜色 -->
+    <!-- 深睡5分钟图颜色 -->
+    <!-- 醒着文字颜色 -->
+    <!-- 浅睡文字颜色 -->
+    <!-- 深睡文字颜色 -->
+    <!-- 数值文字颜色 -->
+    <color name="transparent_background">#70000000</color>
+    <color name="result_seperator">#CCCCCC</color>
+
+    <!--list 颜色 bp-->
+    <color name="list_gray">#999999</color>
+    <color name="list_item_divider_line_color">#afafbb</color>
+    <color name="list_line">#eaeaea</color>
+    <color name="bluetooth_dialog_line">#afafbb</color>
+
+    <color name="m_whoColor1">#e55959</color>
+    <color name="m_whoColor2">#ef9057</color>
+    <color name="m_whoColor3">#f6c660</color>
+    <color name="m_whoColor4">#d3db70</color>
+    <color name="m_whoColor5">#97cb70</color>
+    <color name="m_whoColor6">#5c9875</color>
+    <color name="m_jncColor1">#e55959</color>
+    <color name="m_jncColor2">#ef9057</color>
+    <color name="m_jncColor3">#f6c660</color>
+    <color name="m_jncColor4">#97cb70</color>
+    <!--list 颜色 po-->
+    <color name="m_poColor1">#ffa36c</color>//黄色
+    <color name="m_poColor2">#59b548</color>//绿色
+    <color name="m_poColor3">#ec6941</color>//橘色
+    <color name="m_poColor4">#ffff0000</color>//橘色
+    <!--list 颜色 hs-->
+    <color name="m_hsColor1">#ffdf81</color>
+    <color name="m_hsColor2">#5bb6a4</color>
+    <color name="m_hsColor3">#ffa64d</color>
+    <color name="m_hsColor4">#ec6941</color>
+
+
+    <!--Zendesk-->
+    <color name="colorGrey">#202020</color>
+
+    <!--BPM1指导页通用背景色-->
+    <color name="bpm1_common_background">#F8F8F8</color>
+    <color name="bpm1_commontitle_background">#4DA1DA</color>
+    <color name="bpm1_titletext_background">#ffffff</color>
+    <color name="bpm1_button_gray">#BCBCBC</color>
+    <color name="bpm1_line">#CCCCCC</color>
+    <color name="bpm1_wifi_ground">#FFFFFF</color>
+
+    <color name="app_primary_color">#80c3db</color>
+    <color name="app_transparent">#00000000</color>
+    <color name="grey">#808080</color>
+    <color name="black">#000000</color>
+    <!--小圆点颜色-->
+    <color name="bp5s_circle_not_fill_color">#d8d8d8</color>
+
+    <color name="zendesk_text_color">#5A5A5A</color>
+    <color name="zendesk_text_color_blue">#4291D4</color>
+    <color name="zendesk_text_gray_color">#999999</color>
+
+    <!--ProgressBar 相关-->
+    <color name="bluetooth_opening_text_color">#4da1da</color>
+
+    <color name="gray_guide_text">#949494</color>
+    <color name="bp_main_fragment_no_color">#00ffffff</color>
+    <color name="gray_hint">#888888</color>
+
+    <!--血压离线库-->
+    <color name="gray_color_text_1">#9a9b9c</color>
+    <color name="gray_color_text_2">#bebebe</color>
+    <color name="trend_bg_part_color">#f9f9f9</color>
+    <color name="trend_divider_color">#cccccc</color>
+    <color name="edit_text_color">#50b7f8</color>
+
+    <color name="green">#118575</color>
+
+</resources>

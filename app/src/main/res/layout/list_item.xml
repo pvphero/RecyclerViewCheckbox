@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ihealth="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/hs_item_title_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_background"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/list_line" />
+
+        <TextView
+            android:id="@+id/hs_item_title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginLeft="@dimen/x40"
+            android:layout_marginStart="@dimen/x40"
+            android:layout_marginTop="@dimen/y20"
+            android:text="May 12,2015"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/list_line" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/list_po_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/hs_item_title_time_layout"
+        android:background="#ffffff">
+
+
+        <CheckBox
+            android:id="@+id/hs_item_checkBox"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:background="@drawable/bplist_btn_check"
+            android:button="@null"
+            android:checked="false"
+            android:visibility="gone" />
+
+        <com.vv.resourcebase.view.HorizontalRoundCornerBar
+
+            android:id="@+id/line"
+            android:layout_width="@dimen/x13"
+            android:layout_height="@dimen/y120"
+            android:layout_alignTop="@+id/hs_item_checkBox"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginEnd="@dimen/x30"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_toEndOf="@+id/hs_item_checkBox"
+            android:layout_toRightOf="@+id/hs_item_checkBox"
+            ihealth:linecolor="@color/bind_title" />
+
+        <TextView
+
+            android:id="@+id/hs_item_time_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/line"
+            android:layout_toEndOf="@+id/line"
+            android:layout_toRightOf="@+id/line"
+            android:text="11:11 am" />
+
+
+        <TextView
+            android:id="@+id/hs_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:text="99"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x45" />
+
+        <TextView
+            android:id="@+id/hs_unit_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/hs_percenterg"
+            android:layout_alignLeft="@+id/hs_percenterg"
+            android:layout_alignStart="@+id/hs_percenterg"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:text="xxx"
+            android:textSize="8sp" />
+
+
+        <TextView
+            android:id="@+id/hs_percenterg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hs_weight"
+            android:layout_alignBottom="@+id/hs_weight"
+            android:layout_marginLeft="@dimen/x80"
+            android:layout_marginStart="@dimen/x80"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:text="%"
+            android:textColor="@color/list_gray"
+            android:textSize="8sp" />
+
+
+        <TextView
+            android:id="@+id/hs_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x220"
+            android:layout_marginStart="@dimen/x220"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:text="70"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x45" />
+
+
+        <TextView
+            android:id="@+id/hs_unit_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/po_pulse_beat"
+            android:layout_alignLeft="@+id/po_pulse_beat"
+            android:layout_alignStart="@+id/po_pulse_beat"
+            android:text="PLUE"
+
+            android:textSize="8sp" />
+
+
+        <TextView
+            android:id="@+id/po_pulse_beat"
+            android:layout_width="@dimen/x137"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/hs_percenterg"
+            android:layout_marginLeft="@dimen/x310"
+            android:layout_marginStart="@dimen/x310"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:lines="2"
+            android:text="次/分"
+            android:textColor="@color/list_gray"
+            android:textSize="8sp" />
+
+
+        <TextView
+            android:id="@+id/hs_bodyfat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x447"
+            android:layout_marginStart="@dimen/x447"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:text="23.0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x45" />
+
+        <TextView
+            android:id="@+id/hs_unit_bodyfat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/hs_unit_bmi"
+            android:layout_marginLeft="@dimen/x530"
+            android:layout_marginStart="@dimen/x530"
+            android:layout_toEndOf="@id/line"
+            android:layout_toRightOf="@id/line"
+            android:text="XXX"
+            android:textSize="8sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/list_po_rel"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginStart="@dimen/x40"
+        android:background="@color/list_line" />
+
+</RelativeLayout>
