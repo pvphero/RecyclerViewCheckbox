@@ -1,1 +1,1 @@
-include ':app', ':resourcebase'
+include ':app', ':resourcebase', ':okrecyclerview'
